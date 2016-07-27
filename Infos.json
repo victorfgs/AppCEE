@@ -1,0 +1,20 @@
+"versao":"1.0",
+"colaboradores":
+[
+	{"nome":"valorNome1", "curso":"eletrica_comp","cargo":"valorCargo1"},
+	{"nome":"valorNome2", "curso":"eletrica_comp","cargo":"valorCargo2"},
+	{"nome":"valorNome3", "curso":"eletrica_comp","cargo":"valorCargo3"},
+	{"nome":"valorNome4", "curso":"eletrica_comp","cargo":"valorCargo4"},
+	{"nome":"valorNome5", "curso":"eletrica_comp","cargo":"valorCargo5"},
+	{"nome":"valorNome6", "curso":"eletrica_comp","cargo":"valorCargo6"},
+]
+"eventos":
+[
+
+]
+"projetos":
+[
+	{"nome":"Hour of Code","diretoria":"CEE Solidario","desc":"lorem ipsum"},
+	{"nome":"ProTec","diretoria":"Diretoria Acadêmica","desc":"lorem ipsum"},
+
+]
