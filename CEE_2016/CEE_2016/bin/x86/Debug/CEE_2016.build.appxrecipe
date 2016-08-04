@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\CEE_2016.exe">
       <PackagePath>entrypoint\CEE_2016.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\.nuget\packages\Facebook\7.0.6\lib\win8\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -334,15 +337,28 @@
     <AppxPackagedFile Include="C:\Users\Victor\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Lib\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\CEEs.png">
+      <PackagePath>Assets\CEEs.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\CEE88.png">
+      <PackagePath>Assets\CEE88.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\CEE71.png">
+      <PackagePath>Assets\CEE71.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\CEE_Wide.png">
+      <PackagePath>Assets\CEE_Wide.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
@@ -350,11 +366,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -362,7 +376,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Dados\Infos.json">
+      <PackagePath>Dados\Infos.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Apoio\gen.jpg">
+      <PackagePath>Apoio\gen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Apoio\gen1.jpg">
+      <PackagePath>Apoio\gen1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Lib\Newtonsoft.Json.dll">
+      <PackagePath>Lib\Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\CEE_2016.xr.xml">
       <PackagePath>CEE_2016.xr.xml</PackagePath>

@@ -89,12 +89,26 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="Assets\CEEs.png" />
+    <Content Include="Assets\CEE88.png" />
+    <Content Include="Assets\CEE71.png" />
+    <Content Include="Assets\CEE_Wide.png" />
+    <Content Include="Dados\Infos.json" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Classes_Comuns\App_Geral.cs" />
+    <Compile Include="Classes_Comuns\Colaborador.cs" />
+    <Compile Include="Classes_Comuns\Colaboradores.cs" />
+    <Compile Include="Classes_Comuns\Conexao.cs" />
+    <Compile Include="Classes_Comuns\DadosFacebook.cs" />
+    <Compile Include="Classes_Comuns\Diretoria.cs" />
+    <Compile Include="Classes_Comuns\Evento.cs" />
+    <Compile Include="Classes_Comuns\Projeto.cs" />
+    <Compile Include="Dados\SampleDataSource.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -107,6 +121,9 @@
     <None Include="CEE_2016_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Apoio\gen.jpg" />
+    <Content Include="Apoio\gen1.jpg" />
+    <Content Include="Lib\Newtonsoft.Json.dll" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -128,6 +145,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Windows\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

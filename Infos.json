@@ -1,12 +1,10 @@
 "versao":"1.0",
 "colaboradores":
 [
-	{"nome":"valorNome1", "curso":"eletrica_comp","cargo":"valorCargo1"},
-	{"nome":"valorNome2", "curso":"eletrica_comp","cargo":"valorCargo2"},
-	{"nome":"valorNome3", "curso":"eletrica_comp","cargo":"valorCargo3"},
-	{"nome":"valorNome4", "curso":"eletrica_comp","cargo":"valorCargo4"},
-	{"nome":"valorNome5", "curso":"eletrica_comp","cargo":"valorCargo5"},
-	{"nome":"valorNome6", "curso":"eletrica_comp","cargo":"valorCargo6"},
+	{"nome":"Davi Correia", "curso":"Engenharia de Computação","diretoria":"Presidência"},
+	{"nome":"Lucas Mafra", "curso":"Engenharia Elétrica","diretoria":"Presidência"},
+	{"nome":"Gabriele Peloso", "curso":"Engenharia Elétrica","diretoria":"Diretoria de Comunicação"},
+	{"nome":"Bianca Waldvogel", "curso":"Engenharia Elétrica","diretoria":"Diretoria Financeira"},
 ]
 "eventos":
 [

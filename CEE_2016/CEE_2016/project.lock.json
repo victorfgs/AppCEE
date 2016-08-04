@@ -3,6 +3,15 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
+      "Facebook/7.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/win8/Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Facebook.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1880,6 +1889,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "Facebook/7.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/win8/Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Facebook.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -3623,6 +3641,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "Facebook/7.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/win8/Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Facebook.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -5323,6 +5350,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "Facebook/7.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/win8/Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Facebook.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -7075,6 +7111,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "Facebook/7.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/win8/Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Facebook.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -8775,6 +8820,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "Facebook/7.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/win8/Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Facebook.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -10527,6 +10581,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "Facebook/7.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/win8/Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Facebook.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -12228,6 +12291,35 @@
     }
   },
   "libraries": {
+    "Facebook/7.0.6": {
+      "sha512": "D9nlWZb88S4U+eh1pUDQ+AkSkiht6m0eFpxKFddZnQSSFTnncvDMBEnNODy4fOIOjWQIiOXRVbuY04jCPyWqkw==",
+      "type": "package",
+      "files": [
+        "Facebook.7.0.6.nupkg.sha512",
+        "Facebook.nuspec",
+        "LICENSE.txt",
+        "lib/net35-client/Facebook.dll",
+        "lib/net35-client/Facebook.xml",
+        "lib/net40-client/Facebook.dll",
+        "lib/net40-client/Facebook.xml",
+        "lib/net45/Facebook.dll",
+        "lib/net45/Facebook.xml",
+        "lib/portable-win81+wpa81/Facebook.dll",
+        "lib/portable-win81+wpa81/Facebook.xml",
+        "lib/sl5/Facebook.dll",
+        "lib/sl5/Facebook.xml",
+        "lib/win8/Facebook.dll",
+        "lib/win8/Facebook.xml",
+        "lib/wp71/Facebook.dll",
+        "lib/wp71/Facebook.xml",
+        "lib/wp8/Facebook.dll",
+        "lib/wp8/Facebook.xml",
+        "lib/wp81/Facebook.dll",
+        "lib/wp81/Facebook.xml",
+        "readme.txt",
+        "serializers/JsonNetSerializer.cs"
+      ]
+    },
     "Microsoft.CSharp/4.0.0": {
       "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
       "type": "package",
@@ -15497,6 +15589,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "Facebook >= 7.0.6",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0"
     ],
     "UAP,Version=v10.0": []

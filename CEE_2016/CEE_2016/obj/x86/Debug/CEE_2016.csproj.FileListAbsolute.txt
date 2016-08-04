@@ -190,3 +190,5 @@ C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\qualifiers
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Facebook.dll
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Newtonsoft.Json.dll

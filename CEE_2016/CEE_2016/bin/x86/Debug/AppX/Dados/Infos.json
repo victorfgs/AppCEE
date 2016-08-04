@@ -1,0 +1,70 @@
+{
+	"versao":"1.0",
+	"colaboradores":
+	[
+		{"id":"1","nome":"Davi Correia","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"2","nome":"Lucas Mafra", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"3","nome":"Gabrielle Peloso", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"4","nome":"João Felipe Rezende", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"5","nome":"Edilene Bastos","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"6","nome":"Thábata Sakurai", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"7","nome":"Túlio Vieitez", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"8","nome":"João V.Golias", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Financeira"},
+		{"id":"9","nome":"Beatriz Bessa","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"10","nome":"Clarissa Rocha", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"11","nome":"Gustavo Ken Honda", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"12","nome":"Luciana Marques", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Financeira"},
+		{"id":"13","nome":"Matheus Orsi","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"14","nome":"Vinícius Rosa", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"15","nome":"ThiagoFonseca", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"16","nome":"Isaac Souza", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Financeira"},
+		{"id":"17","nome":"Pedro Darvas","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Diretoria de Patrimônio"},
+		{"id":"18","nome":"Victor Felix Goes dos Santos", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Diretoria de Patrimônio"},
+		{"id":"19","nome":"William Moura", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Diretoria de Patrimônio"},
+		{"id":"20","nome":"Rafaella Piedade Rokitzki", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Patrimônio"},
+		{"id":"21","nome":"Fernando Trovões","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Diretoria de Patrimônio"},
+		{"id":"22","nome":"Guilherme Adissy", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"23","nome":"Pedro Bairão", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"24","nome":"Carlos Mendes", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Financeira"},
+		{"id":"25","nome":"Rafael Takahace","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"26","nome":"Rodrigo Gerber", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"27","nome":"Rafael Yaginuma", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"28","nome":"Bruno Macedo", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Financeira"},
+		{"id":"29","nome":"Gabriel Minossi","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"30","nome":"Pedro Barossi", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"31","nome":"Matteus Oliveira", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Social"},
+		{"id":"32","nome":"Carlos Tamancoldi", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Social"},
+		{"id":"33","nome":"Michael Schardosim","email":"davi@davi", "curso":"Engenharia de Computação","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"34","nome":"Bianca Waldvogel", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen1.jpg","diretoria":"Presidência"},
+		{"id":"35","nome":"Letícia Bonella", "email":"davi@davi","curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria de Comunicação"},
+		{"id":"36","nome":"Stephanie Hsia", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Financeira"},
+		{"id":"37","nome":"Guilherme Santos", "email":"davi@davi", "curso":"Engenharia Elétrica","urlFoto":"/Apoio/gen.jpg","diretoria":"Diretoria Financeira"}
+	],
+	"projetos":
+	[
+		{"nome":"Hour of Code","diretoria":"CEE Solidario","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Sapiens","diretoria":"Diretoria Acadêmica","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"ProTec","diretoria":"Diretoria Acadêmica","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"}
+
+	],
+	"eventos":
+	[
+		{"nome":"SenEC","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg","textoCompleto":"asasasas"},
+		{"nome":"D4 - A festa","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg","textoCompleto":"asasasas"},
+		{"nome":"Nostalgia","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg","textoCompleto":"asasasas"}
+
+	],
+	"diretorias":
+	[
+		{"nome":"Presidência","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Diretoria Acadêmica","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Diretoria de Esportes","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Diretoria de Comunicação","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Diretoria Financeira","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Diretoria de Patrimônio","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Diretoria de Eventos","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"},
+		{"nome":"Diretoria Social","desc":"lorem ipsum","urlFoto":"/apoio/gen.jpg"}
+
+
+	]
+}

@@ -4,11 +4,117 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:CEE_2016"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:data="using:CEE_2016.Info"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#131C2B">
+    <Page.Resources>
+        <CollectionViewSource x:ConnectionId='1' 
+            x:Name="testeViewSource" 
+            Source="{Binding Groups}"
+            ItemsPath="Items"
+            d:Source="{Binding Groups, Source={d:DesignData Source=/Dados/Infos.json, Type=data:SampleDataSource}}">
+        </CollectionViewSource>
+    </Page.Resources>
+        
+    <SplitView x:ConnectionId='2' x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+               CompactPaneLength="50" OpenPaneLength="200">
+        <SplitView.Pane>
+            <StackPanel Background="#131C2B">
+                <Button x:ConnectionId='3' x:Name="HamburgerButton" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent"                              />
+                
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='10' x:Name="MenuButton2" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE77B;"
+                        Width="50" Height="50" Background="Transparent"/>
+                    <TextBlock Text="Colaboradores" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='9' x:Name="MenuButton3" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                        Width="50" Height="50" Background="Transparent"/>
+                    <TextBlock Text="Projetos" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='8' x:Name="MenuButton4" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE716;"
+                        Width="50" Height="50" Background="Transparent"/>
+                    <TextBlock Text="Eventos" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='7' x:Name="MenuButton5" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                        Width="50" Height="50" Background="Transparent"/>
+                    <TextBlock Text="Alocação" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='6' x:Name="MenuButton6" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE8D4;"
+                        Width="50" Height="50" Background="Transparent"/>
+                    <TextBlock Text="Salas" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Button x:ConnectionId='5' x:Name="MenuButton7" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                        Width="50" Height="50" Background="Transparent"/>
+                    <TextBlock  Text="Galeria" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='4' x:Name="MenuButton8" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE715;"
+                        Width="50" Height="50" Background="Transparent"/>
+                    <TextBlock Text="Contato" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Grid x:ConnectionId='11' x:Name="grdConteudo"  Background="Gray">
+                <Grid.RowDefinitions>
+                    <RowDefinition x:ConnectionId='12' x:Name="grdLinha1" Height="100"></RowDefinition>
+                    <RowDefinition x:ConnectionId='13' x:Name="grdLinha2" Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.Resources>
+                    <DataTemplate x:Key="DT01">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                
+                            </Grid.RowDefinitions >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="300"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Border  BorderBrush="#131C2B" BorderThickness="2"  Grid.Column="0" Grid.Row="0">
+                                <Image VerticalAlignment="Center"    Stretch="Fill" Width="100" Height="100" Source="{Binding urlFoto}"></Image>
+                            </Border>
+                            <StackPanel Background="#131C2B" Grid.Column="1" >
+                                <Grid Height="100" Padding="5,5,0,5" VerticalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70"></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Foreground="White">Nome:</TextBlock>
+                                    <TextBlock Grid.Row="1" Grid.Column="0" Foreground="White">Diretoria:</TextBlock>
+                                    <TextBlock Grid.Row="2" Grid.Column="0" Foreground="White">Email:</TextBlock>
+                                    <TextBlock Grid.Row="3" Grid.Column="0" Foreground="White">Curso:</TextBlock>
+                                    
+                                    <TextBlock Grid.Row="0" Grid.Column="1" Foreground="White"    HorizontalAlignment="Left" Text="{Binding nome}"></TextBlock>
+                                    <TextBlock Grid.Row="1" Grid.Column="1" Foreground="White"  HorizontalAlignment="Left" Text="{Binding diretoria}"></TextBlock>
+                                    <TextBlock Grid.Row="2"  Grid.Column="1" Foreground="White"  HorizontalAlignment="Left" Text="{Binding email}"></TextBlock>
+                                    <TextBlock  Grid.Row="3" Grid.Column="1" Foreground="White"  HorizontalAlignment="Left" Text="{Binding curso}"></TextBlock>
+                                </Grid>
+                                
+                            </StackPanel>
+                            </Grid>
+                    </DataTemplate>
+                </Grid.Resources>
 
-    </Grid>
+                <TextBlock Foreground="White" FontSize="60" VerticalAlignment="Center"  Grid.Row="0" Text="  Colaboradores"></TextBlock>
+                <GridView  Grid.Row="1" ItemTemplate="{StaticResource DT01}" ItemsSource="{Binding Source={StaticResource testeViewSource}}" VerticalAlignment="Center" HorizontalAlignment="Center"></GridView>
+                <GridView Padding="30,30,0,0" Grid.Row="1" ItemTemplate="{StaticResource DT01}" ItemsSource="{Binding}" VerticalAlignment="Top" HorizontalAlignment="Stretch"></GridView>
+                <!--<TextBlock x:Name="teste1" Text="SplitView Basic" FontSize="54" TextWrapping="Wrap" Foreground="White"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>-->
+            </Grid>
+        </SplitView.Content>
+    </SplitView>
 </Page>
 
