@@ -191,7 +191,6 @@ C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\qualifiers
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Facebook.dll
-C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagProjetos.g.i.cs
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagProjetos.g.cs
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagColaboradores.xaml
@@ -202,3 +201,11 @@ C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\PagColabor
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\PagProjetos.xbf
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagColaboradores.g.i.cs
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagColaboradores.g.cs
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Template10Library.dll
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\CEE_2016.csproj.GenerateResource.Cache
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\Template10Library.pri.xml
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Newtonsoft.Json.dll

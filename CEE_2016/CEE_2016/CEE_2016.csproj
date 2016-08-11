@@ -108,8 +108,6 @@
     <Compile Include="Classes_Comuns\Diretoria.cs" />
     <Compile Include="Classes_Comuns\Evento.cs" />
     <Compile Include="Classes_Comuns\Projeto.cs" />
-    <Compile Include="Dados\SampleData2.cs" />
-    <Compile Include="Dados\SampleDataSource.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -120,6 +118,7 @@
       <DependentUpon>PagProjetos.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\InfoData.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

@@ -4,16 +4,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:CEE_2016"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:data="using:CEE_2016.Info"
+    xmlns:data="using:CEE_2016.ViewModel"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
     <Page.Resources>
         <CollectionViewSource 
             x:Name="testeViewSource" 
-            Source="{Binding Groups}"
+            Source="{Binding Colaboradores}"
             ItemsPath="Items"
-            d:Source="{Binding Groups, Source={d:DesignData Source=/Dados/Infos.json, Type=data:SampleDataSource}}">
+            d:Source="{Binding Colaboradores, Source={d:DesignData Source=/Dados/Infos.json, Type=data:colaboradoresDataSource}}">
         </CollectionViewSource>
     </Page.Resources>
 

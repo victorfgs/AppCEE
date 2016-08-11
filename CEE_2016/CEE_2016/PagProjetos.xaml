@@ -5,16 +5,16 @@
     xmlns:local="using:CEE_2016"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:data="using:CEE_2016.Info"
+    xmlns:data="using:CEE_2016.ViewModel"
     mc:Ignorable="d">
     
 
     <Page.Resources>
         <CollectionViewSource 
             x:Name="testeViewSource" 
-            Source="{Binding Groups}"
+            Source="{Binding Projetos}"
             ItemsPath="Items"
-            d:Source="{Binding Groups, Source={d:DesignData Source=/Dados/Infos.json, Type=data:SampleDataSource2}}">
+            d:Source="{Binding Projetos, Source={d:DesignData Source=/Dados/Infos.json, Type=data:projetosDataSource}}">
         </CollectionViewSource>
         
     </Page.Resources>
@@ -31,7 +31,6 @@
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="400"></ColumnDefinition>
-                        <!--  <ColumnDefinition Width="200"></ColumnDefinition>-->
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Padding="10,0,0,0" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Text="{Binding nome}"></TextBlock>

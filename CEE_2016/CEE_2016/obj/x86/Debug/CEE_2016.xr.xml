@@ -3,11 +3,13 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Groups" />
+    <RootPropertyPathName Name="Colaboradores" />
     <RootPropertyPathName Name="curso" />
     <RootPropertyPathName Name="email" />
     <RootPropertyPathName Name="diretoria" />
     <RootPropertyPathName Name="nome" />
     <RootPropertyPathName Name="urlFoto" />
+    <RootPropertyPathName Name="Projetos" />
     <RootPropertyPathName Name="desc" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
