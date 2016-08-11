@@ -8,17 +8,17 @@ namespace CEE_2016.Classes_Comuns
 {
     class Projeto
     {
-        private string nome { get; set; }
-        private string diretoria { get; set; }
-        private string descricao { get; set; }
-        private string urlFoto { get; set; }
+        public string nome { get; set; }
+        public string diretoria { get; set; }
+        public string desc { get; set; }
+        public string urlFoto { get; set; }
 
 
         public Projeto(string nome, string diretoria, string descricao, string urlFoto)
         {
             this.nome = nome;
             this.diretoria = diretoria;
-            this.descricao = descricao;
+            this.desc = descricao;
             this.urlFoto = urlFoto;
         }
     }

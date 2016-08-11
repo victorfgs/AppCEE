@@ -8,6 +8,7 @@
     <RootPropertyPathName Name="diretoria" />
     <RootPropertyPathName Name="nome" />
     <RootPropertyPathName Name="urlFoto" />
+    <RootPropertyPathName Name="desc" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -53,7 +54,11 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="TextWrapping" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+    <RootType FullName="CEE_2016.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="RowDefinitions" />
@@ -97,6 +102,11 @@
       <RootProperty Name="Padding" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="CEE_2016.MainPage" />
+    <RootType FullName="CEE_2016.PagColaboradores" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="CEE_2016.PagProjetos" />
   </Roots.RootTypes>
 </Roots>

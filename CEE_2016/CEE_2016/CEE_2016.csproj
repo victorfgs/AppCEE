@@ -108,9 +108,16 @@
     <Compile Include="Classes_Comuns\Diretoria.cs" />
     <Compile Include="Classes_Comuns\Evento.cs" />
     <Compile Include="Classes_Comuns\Projeto.cs" />
+    <Compile Include="Dados\SampleData2.cs" />
     <Compile Include="Dados\SampleDataSource.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PagColaboradores.xaml.cs">
+      <DependentUpon>PagColaboradores.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PagProjetos.xaml.cs">
+      <DependentUpon>PagProjetos.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -123,7 +130,6 @@
   <ItemGroup>
     <Content Include="Apoio\gen.jpg" />
     <Content Include="Apoio\gen1.jpg" />
-    <Content Include="Lib\Newtonsoft.Json.dll" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -141,6 +147,14 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PagColaboradores.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PagProjetos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>D08D8F6C618787414C99605A12C31D98CD924F93EF55D71D978548A8B10A1C90</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>EF4859D7FE5C4F16E554F580FE6791BFE8CE7B11DD2B95F5D0847385D6794493</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>380564d1-5e39-40bc-870d-53d2a7b43534_1.0.0.0_x86__mj2y49482qz0c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>380564d1-5e39-40bc-870d-53d2a7b43534_mj2y49482qz0c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>380564d1-5e39-40bc-870d-53d2a7b43534</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-07-30T04:16:55.605</Modified>
+      <Modified>2016-08-11T20:20:56.475</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\CEE_2016.exe">
       <PackagePath>entrypoint\CEE_2016.exe</PackagePath>
-      <Modified>2016-07-30T04:08:56.209</Modified>
+      <Modified>2016-08-11T20:20:54.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\.nuget\packages\Facebook\7.0.6\lib\win8\Facebook.dll">
       <PackagePath>Facebook.dll</PackagePath>
@@ -506,7 +506,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Dados\Infos.json">
       <PackagePath>Dados\Infos.json</PackagePath>
-      <Modified>2016-07-30T04:16:17.376</Modified>
+      <Modified>2016-08-04T21:30:11.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\Apoio\gen.jpg">
       <PackagePath>Apoio\gen.jpg</PackagePath>
@@ -526,19 +526,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\CEE_2016.xr.xml">
       <PackagePath>CEE_2016.xr.xml</PackagePath>
-      <Modified>2016-07-30T04:08:55.984</Modified>
+      <Modified>2016-08-04T21:37:11.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2016-05-02T04:50:33.270</Modified>
+      <Modified>2016-08-03T01:22:53.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-07-30T04:16:55.161</Modified>
+      <Modified>2016-08-11T20:20:55.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Core\CEE_2016.exe">
       <PackagePath>CEE_2016.exe</PackagePath>
-      <Modified>2016-07-30T04:16:55.597</Modified>
+      <Modified>2016-08-11T20:20:56.471</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

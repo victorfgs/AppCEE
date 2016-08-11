@@ -25,12 +25,12 @@
                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
                 
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton2" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE77B;"
+                    <Button x:Name="MenuButton2" Click="MenuButton2_Click" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE77B;"
                         Width="50" Height="50" Background="Transparent"/>
                     <TextBlock Text="Colaboradores" Foreground="White" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton3" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                    <Button x:Name="MenuButton3" Click="MenuButton3_Click" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
                         Width="50" Height="50" Background="Transparent"/>
                     <TextBlock Text="Projetos" Foreground="White" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>
@@ -62,6 +62,13 @@
             </StackPanel>
         </SplitView.Pane>
         <SplitView.Content>
+            
+                <Frame x:Name="frmGeral">
+                
+                </Frame>
+            
+            
+            <!--
             <Grid x:Name="grdConteudo"  Background="Gray">
                 <Grid.RowDefinitions>
                     <RowDefinition x:Name="grdLinha1" Height="100"></RowDefinition>
@@ -111,9 +118,10 @@
                 <TextBlock Foreground="White" FontSize="60" VerticalAlignment="Center"  Grid.Row="0" Text="  Colaboradores"></TextBlock>
                 <GridView  Grid.Row="1" ItemTemplate="{StaticResource DT01}" ItemsSource="{Binding Source={StaticResource testeViewSource}}" VerticalAlignment="Center" HorizontalAlignment="Center"></GridView>
                 <GridView Padding="30,30,0,0" Grid.Row="1" ItemTemplate="{StaticResource DT01}" ItemsSource="{Binding}" VerticalAlignment="Top" HorizontalAlignment="Stretch"></GridView>
-                <!--<TextBlock x:Name="teste1" Text="SplitView Basic" FontSize="54" TextWrapping="Wrap" Foreground="White"
-                           HorizontalAlignment="Center" VerticalAlignment="Center"/>-->
-            </Grid>
+                <TextBlock x:Name="teste1" Text="SplitView Basic" FontSize="54" TextWrapping="Wrap" Foreground="White"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>-->
+
         </SplitView.Content>
     </SplitView>
 </Page>

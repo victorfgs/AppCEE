@@ -25,8 +25,14 @@ namespace CEE_2016
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    
+     
     public sealed partial class MainPage : Page
     {
+
+        ObservableCollection<Colaborador> _OCColaboradores { get; set; }
+        ObservableCollection<Projeto> _OCProjetos { get; set; }
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -49,7 +55,12 @@ namespace CEE_2016
             //OC.Add(new Colaborador("1", "1", "1", "1", "1", "1"));
 
             var OCColaborador = new ObservableCollection<Colaborador>(oGeral.listaColaboradores);
-            grdConteudo.DataContext = OCColaborador;
+            var OCProjeto = new ObservableCollection<Projeto>(oGeral.listaProjetos);
+            //grdConteudo.DataContext = OCColaborador;
+            //COLABORADORES SERÁ A PAGINA INICIAL
+            this._OCColaboradores = OCColaborador;
+            this._OCProjetos = OCProjeto;
+            this.frmGeral.Navigate(typeof(PagColaboradores),OCColaborador);
 
             // Title Bar Content Area
             titleBar.BackgroundColor = Color.FromArgb(0, 19, 28, 43);
@@ -64,6 +75,16 @@ namespace CEE_2016
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
             
+        }
+
+        private void MenuButton3_Click(object sender, RoutedEventArgs e)
+        {
+            this.frmGeral.Navigate(typeof(PagProjetos),this._OCProjetos);
+        }
+
+        private void MenuButton2_Click(object sender, RoutedEventArgs e)
+        {
+            this.frmGeral.Navigate(typeof(PagColaboradores),this._OCColaboradores);
         }
     }
 

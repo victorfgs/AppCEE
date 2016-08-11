@@ -192,3 +192,13 @@ C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\MultipleQu
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Facebook.dll
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagProjetos.g.i.cs
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagProjetos.g.cs
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagColaboradores.xaml
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagProjetos.xaml
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagColaboradores.xbf
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagProjetos.xbf
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\PagColaboradores.xbf
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\PagProjetos.xbf
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagColaboradores.g.i.cs
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagColaboradores.g.cs

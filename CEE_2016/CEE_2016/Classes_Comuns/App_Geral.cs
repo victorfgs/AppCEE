@@ -14,9 +14,9 @@ namespace CEE_2016.Classes_Comuns
         public bool conectado;
         public string TESTE;
         public List<Colaborador>listaColaboradores;
-        private List<Projeto>listaProjetos;
-        private List<Evento> listaEventos;
-        private List<Diretoria> listaDiretoria;
+        public List<Projeto>listaProjetos;
+        public List<Evento> listaEventos;
+        public List<Diretoria> listaDiretoria;
         private string caminhoInfos = "ms-appx:///Dados/Infos.json";
 
         //Construtor
@@ -61,7 +61,10 @@ namespace CEE_2016.Classes_Comuns
             foreach (var item in jArrProjetos)
             {
                 JsonObject result = item.GetObject();
-                this.listaProjetos.Add(new Projeto(result["nome"].ToString(), result["diretoria"].ToString(), result["desc"].ToString(), result["urlFoto"].ToString()));
+                this.listaProjetos.Add(new Projeto(result["nome"].GetString(), 
+                                                    result["diretoria"].GetString(), 
+                                                    result["desc"].GetString(), 
+                                                    result["urlFoto"].GetString()));
                 //this.TESTE = result["nome"].ToString();
 
             }
