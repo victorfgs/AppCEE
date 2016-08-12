@@ -209,3 +209,8 @@ C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\Microsoft.
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\Template10Library.pri.xml
 C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\bin\x86\Debug\PagEventos.xbf
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagEventos.g.i.cs
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagEventos.g.cs
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagEventos.xaml
+C:\Users\Victor\Documents\CEE\App_Cee\CEE_2016\CEE_2016\obj\x86\Debug\PagEventos.xbf

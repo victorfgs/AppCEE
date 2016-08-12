@@ -156,19 +156,21 @@ namespace CEE_2016.CEE_2016_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
-            _typeNameTable[0] = "CEE_2016.MainPage";
+            _typeNameTable = new string[6];
+            _typeNameTable[0] = "CEE_2016.Dados.PagEventos";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "CEE_2016.PagColaboradores";
-            _typeNameTable[4] = "CEE_2016.PagProjetos";
+            _typeNameTable[3] = "CEE_2016.MainPage";
+            _typeNameTable[4] = "CEE_2016.PagColaboradores";
+            _typeNameTable[5] = "CEE_2016.PagProjetos";
 
-            _typeTable = new global::System.Type[5];
-            _typeTable[0] = typeof(global::CEE_2016.MainPage);
+            _typeTable = new global::System.Type[6];
+            _typeTable[0] = typeof(global::CEE_2016.Dados.PagEventos);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::CEE_2016.PagColaboradores);
-            _typeTable[4] = typeof(global::CEE_2016.PagProjetos);
+            _typeTable[3] = typeof(global::CEE_2016.MainPage);
+            _typeTable[4] = typeof(global::CEE_2016.PagColaboradores);
+            _typeTable[5] = typeof(global::CEE_2016.PagProjetos);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -203,9 +205,10 @@ namespace CEE_2016.CEE_2016_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::CEE_2016.MainPage(); }
-        private object Activate_3_PagColaboradores() { return new global::CEE_2016.PagColaboradores(); }
-        private object Activate_4_PagProjetos() { return new global::CEE_2016.PagProjetos(); }
+        private object Activate_0_PagEventos() { return new global::CEE_2016.Dados.PagEventos(); }
+        private object Activate_3_MainPage() { return new global::CEE_2016.MainPage(); }
+        private object Activate_4_PagColaboradores() { return new global::CEE_2016.PagColaboradores(); }
+        private object Activate_5_PagProjetos() { return new global::CEE_2016.PagProjetos(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -217,9 +220,9 @@ namespace CEE_2016.CEE_2016_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  CEE_2016.MainPage
+            case 0:   //  CEE_2016.Dados.PagEventos
                 userType = new global::CEE_2016.CEE_2016_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_PagEventos;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -232,16 +235,23 @@ namespace CEE_2016.CEE_2016_XamlTypeInfo
                 xamlType = new global::CEE_2016.CEE_2016_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  CEE_2016.PagColaboradores
+            case 3:   //  CEE_2016.MainPage
                 userType = new global::CEE_2016.CEE_2016_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_PagColaboradores;
+                userType.Activator = Activate_3_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  CEE_2016.PagProjetos
+            case 4:   //  CEE_2016.PagColaboradores
                 userType = new global::CEE_2016.CEE_2016_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_PagProjetos;
+                userType.Activator = Activate_4_PagColaboradores;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  CEE_2016.PagProjetos
+                userType = new global::CEE_2016.CEE_2016_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_PagProjetos;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

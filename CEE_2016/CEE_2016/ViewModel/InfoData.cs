@@ -9,7 +9,27 @@ using Windows.Storage;
 
 namespace CEE_2016.ViewModel
 {
-    public class designProjetos
+    public class designEventos
+    {
+        public designEventos(string nome, string desc, string urlFoto, string textoCompleto)
+        {
+            this.nome = nome;
+            this.desc = desc;
+            this.urlFoto = urlFoto;
+            this.textoCompleto = textoCompleto;
+        }
+        public string nome { get; private set; }
+        public string desc { get; private set; }
+        public string urlFoto { get; private set; }
+        public string textoCompleto { get; private set; }
+
+        public override string ToString()
+        {
+            return this.nome.ToString();
+        }
+    }
+
+        public class designProjetos
     {
         public designProjetos(String uniqueId, String nome, String email, String curso)
         {
@@ -55,6 +75,47 @@ namespace CEE_2016.ViewModel
         }
     }
 
+    public sealed class eventosDataSource
+    {
+        private static eventosDataSource _eventosDataSource = new eventosDataSource();
+        private ObservableCollection<designEventos> _eventos = new ObservableCollection<designEventos>();
+        public ObservableCollection<designEventos> Eventos
+        {
+            get { return this._eventos; }
+        }
+
+        public static async Task<IEnumerable<designEventos>> PegaEventosAsync()
+        {
+            await _eventosDataSource.PegaInfosEventos();
+
+            return _eventosDataSource.Eventos;
+        }
+
+        private async Task PegaInfosEventos()
+        {
+            if (this._eventos.Count != 0)
+                return;
+
+            Uri dataUri = new Uri("ms-appx:///Dados/Infos.json");
+
+            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
+            string jsonText = await FileIO.ReadTextAsync(file);
+            JsonObject jsonObject = JsonObject.Parse(jsonText);
+            JsonArray jsonArray = jsonObject["eventos"].GetArray();
+
+            foreach (JsonValue groupValue in jsonArray)
+            {
+                JsonObject groupObject = groupValue.GetObject();
+                designEventos grupo = new designEventos(groupObject["nome"].GetString(),
+                                                            groupObject["desc"].GetString(),
+                                                            groupObject["urlFoto"].GetString(),
+                                                            groupObject["textoCompleto"].GetString());
+            }
+
+
+        }
+
+    }
     public sealed class projetosDataSource
     {
         private static projetosDataSource _projetoDataSource=new projetosDataSource();

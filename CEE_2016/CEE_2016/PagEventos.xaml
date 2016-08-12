@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="CEE_2016.Dados.PagEventos"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CEE_2016.Dados"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:CEE_2016.ViewModel"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <CollectionViewSource 
+            x:Name="viewSourceEventos" 
+            Source="{Binding Eventos}"
+            ItemsPath="Items"
+            d:Source="{Binding Eventos, Source={d:DesignData Source=/Dados/Infos.json, Type=data:eventosDataSource}}">
+        </CollectionViewSource>
+    </Page.Resources>
+
+
+    <Grid x:Name="grdGeral" Background="Gray">
+        <Grid.Resources>
+            <DataTemplate x:Key="dtTemplateEventos">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"></ColumnDefinition>    
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="1" Source="{Binding urlFoto}"></Image>
+                    <TextBlock Text="{Binding desc}" Grid.Row="2"></TextBlock>
+                </Grid>
+            </DataTemplate>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Eventos" Foreground="White" Padding="15,0,0,0" VerticalAlignment="Center" FontSize="60"></TextBlock>
+
+        <GridView Padding="15,15,0,0" ItemsSource="{Binding Source={StaticResource viewSourceEventos}}" ItemTemplate="{StaticResource dtTemplateEventos}" Grid.Row="1"></GridView>
+
+    </Grid>
+</Page>

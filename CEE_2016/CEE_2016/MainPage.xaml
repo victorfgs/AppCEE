@@ -4,18 +4,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:CEE_2016"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:data="using:CEE_2016.Info"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Page.Resources>
-        <CollectionViewSource 
-            x:Name="testeViewSource" 
-            Source="{Binding Groups}"
-            ItemsPath="Items"
-            d:Source="{Binding Groups, Source={d:DesignData Source=/Dados/Infos.json, Type=data:SampleDataSource}}">
-        </CollectionViewSource>
-    </Page.Resources>
+
         
     <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="200">
@@ -35,7 +27,7 @@
                     <TextBlock Text="Projetos" Foreground="White" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton4" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE716;"
+                    <Button x:Name="MenuButton4" Click="MenuButton4_Click" Foreground="White" FontFamily="Segoe MDL2 Assets" Content="&#xE716;"
                         Width="50" Height="50" Background="Transparent"/>
                     <TextBlock Text="Eventos" Foreground="White" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>

@@ -17,6 +17,7 @@ using CEE_2016.Classes_Comuns;
 using Windows.UI.ViewManagement;
 using Windows.UI;
 using System.Collections.ObjectModel;
+using CEE_2016.Dados;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -85,6 +86,11 @@ namespace CEE_2016
         private void MenuButton2_Click(object sender, RoutedEventArgs e)
         {
             this.frmGeral.Navigate(typeof(PagColaboradores),this._OCColaboradores);
+        }
+
+        private void MenuButton4_Click(object sender, RoutedEventArgs e)
+        {
+            this.frmGeral.Navigate(typeof(PagEventos));
         }
     }
 
